@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    margin: 0;
+    background-color: #fdd019;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+.container{
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+    color: #e33232;
+}
+.buttons{
+    margin-top: 60px;
+}
+.yes-button{
+    font-size: 1.5em;
+    border-style: solid;
+    padding: 20px 30px;
+    background-color: rgb(223, 51, 249);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: box-shadow 0.15s;
+    font-family: 'Poppins', sans-serif;
+}
+.yes-button:hover{
+    background-color: rgb(68, 244, 37) ;
+}
+.yes-button:active{
+    background-color: rgb(61, 216, 34) ;
+}
+.no-button{
+    font-size: 1.5em;
+    border-style: solid;
+    padding: 20px 30px;
+    background-color: rgb(223, 51, 249);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow 0.15s;
+    font-family: 'Poppins', sans-serif;
+}
+.no-button:hover{
+    background-color: rgb(253, 0, 0) ;
+}
+.no-button:active{
+    background-color: rgb(212, 12, 12) ;
+}
+.gif_container img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
